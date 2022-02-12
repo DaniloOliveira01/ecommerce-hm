@@ -7,4 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Urbanist', sans-serif;
   }
+
+  body {
+    background-color: #e2e2e2;
+  }
 `;
