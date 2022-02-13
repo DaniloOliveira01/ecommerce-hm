@@ -1,6 +1,6 @@
 import { Container } from "./style";
-import { category } from "../../data";
-import { CategoryItem } from "../CategoryItem/CategoryItem";
+import { category } from "../../services/data";
+import { CategoryItem } from "../CategoryItem";
 
 export function Category() {
   return (

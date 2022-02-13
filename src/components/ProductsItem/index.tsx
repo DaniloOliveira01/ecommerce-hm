@@ -1,6 +1,6 @@
 import { Container } from "./style";
-import { productsPopular } from "../../data";
-import { Products } from "../Products/Products";
+import { productsPopular } from "../../services/data";
+import { Products } from "../Products";
 
 export function ProductsItem() {
   return (

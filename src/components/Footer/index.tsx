@@ -12,7 +12,7 @@ import {
    List,
    ListItem,
    ContactItem,
-   PayMent} from "../style";
+   PayMent} from "./style";
 
 export function Footer() {
   return (

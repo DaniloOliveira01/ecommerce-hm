@@ -1,30 +1,30 @@
-import modelImg from './assets/model.png'
+import modelImg from '../assets/model.png'
 // Category 
-import poloImg from './assets/polo.png'
-import regataImg from './assets/regata.png'
-import ternoImg from './assets/terno.png'
+import poloImg from '../assets/polo.png'
+import regataImg from '../assets/regata.png'
+import ternoImg from '../assets/terno.png'
 
 // ProductsPopular
 
 // Ternos
 
-import ternoOneImg from './assets/terno1.png'
-import ternoTwoImg from './assets/terno2.png'
+import ternoOneImg from '../assets/terno1.png'
+import ternoTwoImg from '../assets/terno2.png'
 
 // Polos
 
-import poloOneImg from './assets/polo1.png'
-import poloTwoImg from './assets/polo2.png'
+import poloOneImg from '../assets/polo1.png'
+import poloTwoImg from '../assets/polo2.png'
 
 // Camisetas 
 
-import camisaOneImg from './assets/camisa1.jpg'
-import camisaTwoImg from './assets/camisa2.jpg'
+import camisaOneImg from '../assets/camisa1.jpg'
+import camisaTwoImg from '../assets/camisa2.jpg'
 
 // Regatas 
 
-import regataOneImg from './assets/regata1.jpg'
-import regataTwoImg from './assets/regata2.png'
+import regataOneImg from '../assets/regata1.jpg'
+import regataTwoImg from '../assets/regata2.png'
 
 
 

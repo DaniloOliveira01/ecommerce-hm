@@ -1,12 +1,12 @@
-import { Home } from "./Pages/Home";
-import { ProductsList } from "./Pages/Home/ProductsList";
+// import { Home } from "./Pages/Home";
+// import { ProductsList } from "./Pages/ProductsList/ProductsList";
+import { ProductUniq } from "./Pages/UniqProducts/ProductUniq";
 import { GlobalStyle } from "./styles/GlobalStyle";
 
 function App() {
   return (
     <>
-      <Home />
-      <ProductsList />
+      <ProductUniq />
       <GlobalStyle />
     </>
   );
