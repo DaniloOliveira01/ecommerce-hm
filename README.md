@@ -2,8 +2,8 @@
 
 #### Ainda em andamento.
 
-✅ - Página inicial
-✅ - Página de produtos
+✅ - Página inicial <br>
+✅ - Página de produtos <br>
 ⏩ - Página de acessórios ( em andamento )
 
 <img src="https://i.imgur.com/kIWX6Un.png">
