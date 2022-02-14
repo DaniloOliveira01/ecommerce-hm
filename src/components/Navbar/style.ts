@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 60px;
+  background-color: #000;
+  color: #fff
 `;
 
 export const Wrapper = styled.div`
-  background-color: #333;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff
 `;
 
 export const Left = styled.div`

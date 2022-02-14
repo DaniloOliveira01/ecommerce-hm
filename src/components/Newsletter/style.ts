@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 60vh;
-  background-color: #e2e2e2;
+  background-color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +34,7 @@ export const InputContainer = styled.div`
 export const Input = styled.input`
   flex: 8;
   border: none;
+  outline: none;
   padding-left: 20px;
 `;
 
@@ -40,5 +42,6 @@ export const Button = styled.button`
   flex: 1;
   border: none;
   background-color: #333;
-  color: #fff
+  color: #fff;
+  cursor: pointer;
 `;
