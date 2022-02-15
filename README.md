@@ -6,6 +6,7 @@
 ✅ - Página de produtos <br>
 ✅ - Página de acessórios <br>
 ✅ - Tela de Regisstro <br>
-⏩ - Tela de Login (Adicionada, terminando detalhes)
+✅ - Tela de Login <br>
+✅ - carrinho e sacola
 
 <img src="https://i.imgur.com/kIWX6Un.png">
