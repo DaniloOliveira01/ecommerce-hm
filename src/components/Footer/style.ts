@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   display: flex;
+  color: #fff;
 `;
 
 export const Left = styled.div`
@@ -9,7 +10,6 @@ export const Left = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: #333;
 `;
 
 export const Logo = styled.h1``;
@@ -26,8 +26,8 @@ export const SocialIcon = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #333;
   background-color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;

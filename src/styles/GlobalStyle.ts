@@ -9,6 +9,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-image: linear-gradient(to right, #100f0f, #c8c9cb);
+    background-image: linear-gradient(to left bottom, #cfcfcf, #1c2026);
   }
 `;

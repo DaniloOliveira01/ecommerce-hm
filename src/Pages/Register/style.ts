@@ -31,13 +31,13 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
 `;
 
 
 export const Input = styled.input`
   flex: 1;
-  min-width: 40%;
+  min-width: 50%;
+  font-size: 1rem;
   margin-bottom: 10px;
   padding: 10px;
   border-bottom: 3px solid #000;

@@ -1,6 +1,6 @@
 import { Agreement, Button, Container, Form, Input, Logo, Title, Wrapper } from "./style";
 
-export function Regisster() {
+export function Register() {
   return (
     <Container>
       <Wrapper>

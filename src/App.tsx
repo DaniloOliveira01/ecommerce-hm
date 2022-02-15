@@ -1,13 +1,15 @@
 // import { Home } from "./Pages/Home";
 // import { ProductsList } from "./Pages/ProductsList/ProductsList";
-import { Regisster } from "./Pages/Register";
+// import { Login } from "./Pages/Login";
+// import { Register } from "./Pages/Register";
 // import { ProductUniq } from "./Pages/UniqProducts/ProductUniq";
+import { Cart } from "./Pages/Cart";
 import { GlobalStyle } from "./styles/GlobalStyle";
 
 function App() {
   return (
     <>
-      <Regisster />
+      <Cart />
       <GlobalStyle />
     </>
   );

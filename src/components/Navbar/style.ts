@@ -18,7 +18,7 @@ export const Left = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #333;
+  border: 1px solid #e2e2e2;
 
   input {
   width: 470px;
