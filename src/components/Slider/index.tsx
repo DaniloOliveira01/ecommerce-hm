@@ -2,7 +2,6 @@ import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import { Arrow, ButtonInfo, Container, Description, Image, ImgContainer, InfoContainer, Slide, Title, Wrapper } from "./style";
 import { useState } from "react";
 import { SliderItems } from "../../services/data";
-import { title } from "process";
 
 export function Slider() {
   const [slides, setSlides] = useState(0);
