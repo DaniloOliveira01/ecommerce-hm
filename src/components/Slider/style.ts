@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../styles/Responsive";
 
 export const Container = styled.div`
   width: 100%;
@@ -7,6 +8,7 @@ export const Container = styled.div`
   background-color: #E2E2E2;
   position: relative;
   overflow: hidden;
+  ${mobile({display: "none" })}
 `;
 
 interface SetLeftRight {
