@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../styles/Responsive";
 
 export const Container = styled.div`
   width: 100vw;
@@ -14,6 +15,7 @@ export const Wrapper = styled.div`
   background-color: #333;
   color: #fff;
   border-radius: 8px;
+  ${mobile({ width: "80%"})}
 `;
 
 export const Logo = styled.h1`
@@ -50,7 +52,7 @@ export const Agreement = styled.span`
 `;
 
 export const Button = styled.button`
-  width: 40%;
+  width: 50%;
   padding: 10px;
   border: 2px solid #333;
   background-color: #e2e2e2;

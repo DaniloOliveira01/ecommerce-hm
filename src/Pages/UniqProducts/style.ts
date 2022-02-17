@@ -1,29 +1,30 @@
 import styled from "styled-components";
-
+import { mobile } from "../../styles/Responsive";
 
 export const Container = styled.div`
-  
 `;
 
 export const Wrapper = styled.div`
   padding: 50px;
   display: flex;
+  ${mobile({ padding: "10px", flexDirection: "column"})}
 `;
 
 export const ImgContainer = styled.div`
   flex: 1;
-
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: 90vh;
   object-fit: cover;
+  ${mobile({ height: "40vh"})}
 `;
 
 export const InfoContainer = styled.div`
   flex: 1;
   padding: 0 50px;
+  ${mobile({ padding: "10px"})}
 `;
 
 export const Title = styled.h2`
@@ -47,6 +48,7 @@ export const FilterContainer = styled.div`
   margin: 30px 0;
   display: flex;
   justify-content: space-between;
+  ${mobile({ width: "100%"})}
 `;
 
 export const Filter = styled.div`
@@ -86,6 +88,7 @@ export const AddContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  ${mobile({ width: "100%"})}
 `;
 
 export const AmountContainer = styled.div`

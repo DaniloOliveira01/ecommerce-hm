@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../styles/Responsive";
 
 export const Container = styled.div`
   flex: 1;
@@ -6,15 +7,16 @@ export const Container = styled.div`
   margin: 3px;
   height: 70vh;
   box-shadow: 3px 3px 20px rgba(0,0,0,0.7);
+  ${mobile({ width: "90%", display: "flex", justifyContent: "center", alignItems: "center"})}
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 2px solid #fff;
   border-radius: 8px;
-  margin-bottom: 0.7rem;
+  margin-bottom: 10px;
+  ${mobile({ height: "20vh", width: "20vh", margin: "0 auto"})}
 `;
 
 export const Info = styled.div`
