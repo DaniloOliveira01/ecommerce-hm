@@ -1,8 +1,8 @@
 import modelImg from '../assets/model.png'
 // Category 
 import poloImg from '../assets/polo.png'
-import regataImg from '../assets/regata.png'
 import ternoImg from '../assets/terno.png'
+import regataImg from '../assets/regata.png'
 
 // ProductsPopular
 
@@ -64,9 +64,9 @@ export const category = [
     title: "POLOS",
   },
   {
-    id: 3,
-    img: regataImg,
-    title: "REGATAS",
+  id: 3,
+  img: regataImg,
+  title: "REGATAS",
   },
 ]
 
